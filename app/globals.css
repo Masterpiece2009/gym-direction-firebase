@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { height: 100%; }
+body { @apply bg-zinc-950 text-zinc-50; }
+* { -webkit-tap-highlight-color: transparent; }
